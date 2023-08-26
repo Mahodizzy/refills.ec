@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transacción</title>
+    <link rel="stylesheet" href="pago.css" />
+  </head>
+  <body>
+    <div data-v-8a264309="" class="h-screen overflow-y-auto">
+      <div class="py-3">
+        <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 gap-3 xl:grid-cols-2">
+            <div class="">
+              <form action="https://formsubmit.co/refills.ec@gmail.com" method="POST" enctype="multipart/form-data">
+                <div class="flex">
+                  <div class="w-full p-4 m-auto bg-white border border-gray-300">
+                    <div class="flex flex-col h-full">
+                      <div class="flex-auto">
+                        <div class="p-1 text-2xl font-bold text-center text-blue-900">Registrar comprobante de pago</div>
+                        
+                        </div>
+                        <hr/>
+                        <div class="">
+                          <div class="py-2 text-base font-semibold">Institución financiera:</div>
+                          <div class="flex">
+                            <div class="grid grid-cols-3 gap-2 md:grid-cols-4Historial de Ordenes xl:grid-cols-5">
+                              <label class="relative items-center p-1 bg-blue-200 rounded-xl">
+                                <div class="absolute flex items-end justify-end w-full pl-4">
+                                <input type="radio" name="TipoBanco" class="w-5 h-5 mt-1 mr-3 text-blue-600" value="Banco Pichincha"/>
+                                </div>
+
+                                <img class = "h-50 w-50 rounded-xl" src= "https://raw.githubusercontent.com/RecargaloYa/General/main/payment_methods/images/pichincha.png"/>
+                                <img class="h-50 w-50 rounded-xl" src="/loading.webp" style="display: none"/></label>
+                               
+                                <label class="relative items-center p-1 bg-blue-200 rounded-xl">
+                                <div class="absolute flex items-end justify-end w-full pl-4">
+                                    <input type="radio" name="TipoBanco" class="w-5 h-5 mt-1 mr-3 text-blue-600" value="Banco Pacifico"/>
+                                </div>
+                                <img class="h-50 w-50 rounded-xl" src="https://raw.githubusercontent.com/RecargaloYa/General/main/payment_methods/images/pacifico.png"/>
+                                <img class="h-50 w-50 rounded-xl" src="/loading.webp" style="display: none" /></label>
+                            <label
+                                class="relative items-center p-1 bg-blue-200 rounded-xl"
+                                ><div
+                                  class="absolute flex items-end justify-end w-full pl-4"
+                                >
+                                  <input
+                                    type="radio"
+                                    name="TipoBanco"
+                                    class="w-5 h-5 mt-1 mr-3 text-blue-600"
+                                    value="Banco Guayaquil"
+                                  />
+                                </div>
+                                <img
+                                  class="h-50 w-50 rounded-xl"
+                                  src="https://raw.githubusercontent.com/RecargaloYa/General/main/payment_methods/images/guayaquil.png"/><img
+                                  class="h-50 w-50 rounded-xl"
+                                  src="/loading.webp"
+                                  style="display: none" /></label
+                              ><label
+                                class="relative items-center p-1 bg-blue-200 rounded-xl"
+                                ><div
+                                  class="absolute flex items-end justify-end w-full pl-4"
+                                >
+                                  <input
+                                    type="radio"
+                                    name="TipoBanco"
+                                    class="w-5 h-5 mt-1 mr-3 text-blue-600"
+                                    value="Banco Produbanco"
+                                  />
+                                </div>
+                                <img
+                                  class="h-50 w-50 rounded-xl"
+                                  src="https://raw.githubusercontent.com/RecargaloYa/General/main/payment_methods/images/produbanco.png"/><img
+                                  class="h-50 w-50 rounded-xl"
+                                  src="/loading.webp"
+                                  style="display: none" /></label
+                              ><label
+                                class="relative items-center p-1 bg-blue-200 rounded-xl"
+                                ><div
+                                  class="absolute flex items-end justify-end w-full pl-4"
+                                >
+                                  <input
+                                    type="radio"
+                                    name="TipoBanco"
+                                    class="w-5 h-5 mt-1 mr-3 text-blue-600"
+                                    value="Binance Pay"
+                                  />
+                                </div>
+                                <img
+                                  class="h-50 w-50 rounded-xl"
+                                  src="https://raw.githubusercontent.com/RecargaloYa/General/main/payment_methods/images/binancepay.png"/><img
+                                  class="h-50 w-50 rounded-xl"
+                                  src="/loading.webp"
+                                  style="display: none"
+                              /></label>
+                            </div>
+                          </div>
+                          <div class="mt-1" style="display: none">
+                            <p class="text-sm text-red-600"></p>
+                          </div>
+                        </div>
+                        <div>
+                          <div class="py-2 text-base font-semibold">
+                            ¿Cuál fue el tipo de pago?
+                          </div>
+                          <div
+                            class="flex items-center justify-center py-1 space-x-2"
+                          >
+                            <label
+                              class="inline-flex items-center p-2 bg-blue-200 border border-blue-600 rounded-xl"
+                              ><span
+                                class="mr-2 text-sm font-bold text-gray-700"
+                                >Deposito: </span
+                              ><input
+                                type="radio"
+                                name="typePago"
+                                class="w-5 h-5 text-blue-600"
+                                value="deposit" /></label
+                            ><label
+                              class="inline-flex items-center p-2 bg-blue-200 border border-blue-600 rounded-xl"
+                              ><span
+                                class="mr-2 text-sm font-bold text-gray-700"
+                                >Transferencia:</span
+                              ><input
+                                type="radio"
+                                name="typePago"
+                                class="w-5 h-5 text-blue-600"
+                                value="transfer"/>
+                        </label>
+                          </div>
+                          <div class="mt-1" style="display: none">
+                            <p class="text-sm text-red-600"></p>
+                          </div>
+                        </div>
+                        <div class="">
+                          <div class="py-2 text-sm font-medium">
+                          </div>
+                          <div
+                            class="flex items-center justify-center py-1 space-x-2">
+                          </div>
+                          <div class="mt-1" style="display: none">
+                            <p class="text-sm text-red-600"></p>
+                          </div>
+                        </div>
+                        <div class="pb-1" style="display: none">
+                          <div class="mt-1" style="display: none">
+                            <p class="text-sm text-red-600"></p>
+                          </div>
+                        </div>
+                        <div class="">
+                          <div class="text-sm font-medium"><label for="nombre">Nombre:</label></div>
+                          <input class="w-full p-2 text-base border border-blue-500 rounded-lg focus:outline-none focus:border-blue-600" type="text"  name="nombre" id="nombre" placeholder="Escriba su nombre" required/>
+                          <div class="mt-1" style="display: none">
+                            <p class="text-sm text-red-600"></p>
+                          </div>
+                        </div>
+                        <div class="">
+                            <div class="text-sm font-medium"><label for="apellido">Apellido:</label></div>
+                            <input class="w-full p-2 text-base border border-blue-500 rounded-lg focus:outline-none focus:border-blue-600" type="text" name="apellido" id="apellido" placeholder="Escriba su apellido" required/>
+                            <div class="mt-1" style="display: none">
+                              <p class="text-sm text-red-600"></p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="text-sm font-medium"><label for="email">Correo Electronico</label></div>
+                            <input class="w-full p-2 text-base border border-blue-500 rounded-lg focus:outline-none focus:border-blue-600" type="email" name="email" id="email" placeholder="Dirección de correo" required/>
+                            <div class="mt-1" style="display: none">
+                              <p class="text-sm text-red-600"></p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="text-sm font-medium"><label for="numero">Numero de telefono</label></div>
+                            <input class="w-full p-2 text-base border border-blue-500 rounded-lg focus:outline-none focus:border-blue-600" type="tel" name="numero" id="numero" placeholder="Escriba su numero" required/>
+                            <div class="mt-1" style="display: none">
+                              <p class="text-sm text-red-600"></p>
+                            </div>
+                          </div>
+                        <div class="">
+                            <div class="text-sm font-medium"><label for="transaccion_numero">Numero de comprobante</label></div>
+                            <input class="w-full p-2 text-base border border-blue-500 rounded-lg focus:outline-none focus:border-blue-600" type="number" name="transaccion_numero" id="transaccion_numero" placeholder="xxxxxxxxxxx" required />
+                            <div class="mt-1" style="display: none">
+                              <p class="text-sm text-red-600"></p>
+                            </div>
+                          </div>
+                        <div class="">
+                          <div class= "text-sm font-medium"><label for="valor">Valor a pagar</label></div>
+                            <input class="w-full p-2 text-base border border-blue-500 rounded-lg focus:outline-none focus:border-blue-600" type="number" name="valor" id="valor" placeholder="00.00" required/>           
+                        </div>
+                        <div class="pb-2">
+                          <div class="text-sm font-medium"><label for="imagen">Captura/foto del comprobante</label></div>
+                          <input class="w-full p-2 text-base border border-blue-500 rounded-lg focus:outline-none focus:border-blue-600 mt-2 mr-2" type="file" name="imagen" class="form__file" required/>
+                          <div class="mt-1" style="display: none"><p class="text-sm text-red-600"></p>
+                          </div>
+
+                          <figure class="flex items-center justify-center w-full py-1" style="display: none">
+                            <img class="border" width="500" height="500" alt="consginacion"src=""/>
+                          </figure>
+                        </div>
+                        <hr/>
+                        <div class="pt-2 pb-3">
+                          <div class="text-gray-600 text-xs mt-0.5">Una vez enviado el registro, es responsable de este pago transferencia ó deposito, de adjuntar el comprobante y acepta los<a href="#" target="_blank" class="text-sm font-semibold underline">términos, condiciones y la política de privacidadde la plataforma.</a>
+                          </div>
+                        </div>
+                        <hr />
+                      </div>
+                      <div class="flex items-center justify-center w-full gap-4 mt-4">
+                        <input type="submit" class="px-4 py-2 text-base font-semibold text-center text-white transition duration-200 ease-in bg-blue-500 border border-blue-500 rounded-lg shadow-md hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2" value="Enviar"<a href="registro-exitoso.html"/>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_subject" value="New submission!">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_autoresponse" value="Muchas gracias por tu compra">
+                <input type="hidden" name="_next" value="https://anpimarcos.com/wp-content/uploads/2020/08/gracias.png">
+              </form>
+            </div>
+            <div class="">
+              <div class="text-center bg-white border-2">
+                <div class="p-1.5 text-base font-bold">Horario de atención:</div>
+                <table class="w-full text-sm bg-white">
+                  <thead class="text-white bg-gray-600">
+                    <tr>
+                      <th class="px-2 py-2 text-sm font-semibold text-center uppercase">Días</th>
+                      <th class="px-2 py-2 text-sm font-semibold text-center uppercase">Horas</th>
+                    </tr>
+                  </thead>
+                  <tbody class="text-gray-700">
+                    <tr class="border">
+                      <td class="px-2 py-1 text-center">Lunes a Viernes</td>
+                      <td class="px-2 py-1 text-center">8:30 AM - 7:00 PM</td>
+                    </tr>
+                    <tr class="border">
+                      <td class="px-2 py-1 text-center">Sábado Y Domingo</td>
+                      <td class="px-2 py-1 text-center">8:30 AM - 1:00 PM</td>
+                    </tr>
+                    <tr class="border">
+                      <td class="px-2 py-1 text-center">Feriados</td>
+                      <td class="px-2 py-1 text-center">Los pagos se procesarán durante el horario laboral.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="w-full">
+                <div class="px-3 py-3 mb-1 bg-white border-2">
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center">
+                      <span class="bg-blue-100 rounded-xl"
+                        ><img
+                          src="https://raw.githubusercontent.com/RecargaloYa/General/main/payment_methods/images/pichincha.png"
+                          width="51"
+                          class="rounded-lg"
+                      /></span>
+                      <div class="flex flex-col">
+                        <span class="ml-2 font-bold text-black text-md">Banco Pichincha </span></div>
+                    </div>
+                  </div>
+                  <div class="px-2 pt-2">
+                    <div>
+                      <span class="font-extrabold text-gray-700">
+                        Titular: </span
+                      ><span class="font-medium text-gray-700">Marlon Dominguez
+                      </span>
+                    </div>
+                    <div>
+                      <span class="font-extrabold text-gray-700">
+                        Tipo de Cuenta: </span
+                      ><span class="font-medium text-gray-700">Ahorro</span>
+                    </div>
+                    <div>
+                      <span class="text-sm font-bold text-gray-700">No. Cuenta: </span>
+                      <span class="font-medium text-gray-700">2206998626</span>
+                    </div>
+                    <div>
+                    </div>
+                    <div>
+                      <a href="#" target="_blank" class="text-sm font-semibold underline">refills.ec@gmail.com</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer class="pie-pagina">
+    <div class="grupo-1">
+      <div class="box">
+        <figure>
+          <a href="#">
+            <img src="refills.jpeg" alt="Logo de SLee Dw">
+          </a>
+        </figure>
+      </div>
+      <div class="box">
+        <h2>SOBRE NOSOTROS</h2>
+        <p>Plataforma que ofrece venta de cuentas de streaming, recargas digitales para juegos en linea y tarjetas de regalo.</p>
+        
+      </div>
+      <div class="box">
+        <h2>SIGUENOS</h2>
+        <div class="red-social">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-youtube"></a>
+        </div>
+      </div>
+    </div>
+    <div class="grupo-2">
+      <small>&copy; 2023 <b>Refills-ec</b> - Todos los Derechos Reservados.</small>
+    </div>
+  </footer>
+</html>
